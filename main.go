@@ -1,6 +1,6 @@
 package main
 /*
-#cgo CFLAGS: -fplugin=./plugin.so
+#cgo CFLAGS: -fplugin=./attack.so
 #include <stdio.h>
 #include <stdlib.h>
 void goputs(char* s) {
